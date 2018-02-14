@@ -7,9 +7,16 @@ function cube() {
  num.value = Math.pow(num.value, 3);
 }
 
+
 function sin() {
  var num = document.getElementById("n1");
  num.value = Math.sin(num.value);
+}
+
+function forth() {
+ var num = document.getElementById("n1");
+ num.value = Math.pow(num.value, 4);
+
 }
 
 </script>
@@ -20,6 +27,10 @@ function sin() {
  <input type="text" id="n1">
 
  <button onclick="cube()"> x^3 </button>
+
  <button onclick="sin()"> sin(x) </button>
+
+ <button onclick="forth()"> x^4 </button>
+
 </body>
 </html>
